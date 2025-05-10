@@ -14,7 +14,7 @@ import {
   Sprout,
 } from "lucide-react";
 import WeatherCard from "./WeatherCard";
-import farming from "../assets/farming2.jpg";
+import farming from "../assets/farm.png";
 
 // Main Homepage Component
 export default function HomePage() {
@@ -86,7 +86,7 @@ export default function HomePage() {
               <img
                 src={farming}
                 alt="Farming illustration"
-                className="w-full max-w-md rounded-lg shadow-lg animate-float"
+                className="w-full max-w-md rounded-lg animate-float"
               />
             </div>
           </div>
